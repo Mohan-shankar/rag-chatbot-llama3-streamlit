@@ -61,3 +61,13 @@ Fixes common resume PDF issues:
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+2️⃣ Create virtual environment
+python3 -m venv ragenv
+source ragenv/bin/activate
+3️⃣nstall & pull Llama model
+Install Ollama:
+https://ollama.ai
+Then pull Llama 3.1:
+ollama pull llama3.1
+▶️ Run the Chatbot
+streamlit run ragbot2.py
