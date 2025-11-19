@@ -71,3 +71,8 @@ Then pull Llama 3.1:
 ollama pull llama3.1
 ▶️ Run the Chatbot
 streamlit run ragbot2.py
+📌 Project Structure
+📁 project
+ ├── ragbot2.py
+ ├── requirements.txt
+ └── README.md
